@@ -15,15 +15,16 @@ module.exports = {
       },
     },
     screens: {
-      sm: '640px',
+
+      sm: '640p',
       md: '768px',
       lg: '960px',
       xl: '1200px',
     },
     extend: {
       colors: {
-        primary: '#131424',
-        secondary: '#393A47',
+        primary: '#1b1a21',
+        secondary: '#191a20ff',
         accent: '#F13024',
       },
       backgroundImage: {

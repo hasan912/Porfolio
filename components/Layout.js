@@ -20,9 +20,10 @@ const Layout = ({children}) => {
   <div className={`page bg-site text-white bg-cover bg-no-repeat font-sora relative ${sora.variable}`}>
     
     <TopLeftImage/> 
-    <Nav />
+    
   <Header/>
   {children}
+  <Nav />
   </div>
 )};
 

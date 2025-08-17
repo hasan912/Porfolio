@@ -2,7 +2,7 @@
 import WorkSlider from '../../components/WorkSlider'
 import Bulb from '../../components/Bulb'
 import Cricles from '../../components/Circles'
-
+import ParticlesContainer from "../../components/ParticlesContainer"
 //Farmer
 import {motion} from 'framer-motion'
 import { FadeIn, fadeIn } from '../../variants'
@@ -10,6 +10,7 @@ import { FadeIn, fadeIn } from '../../variants'
 
 const Work = () => {
   return( <div className="h-full bg-primary/30 py-36 flex items-center">
+          <ParticlesContainer />
           <Cricles/>
         <div className="container mx-auto">
           <div className="flex flex-col xl:flex-row gap-x-6">
@@ -25,6 +26,7 @@ const Work = () => {
             
           </div>
         </div>
+        
         <Bulb/>
   </div>
 )};
